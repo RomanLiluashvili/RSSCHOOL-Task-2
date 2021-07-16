@@ -361,6 +361,7 @@ span{
 	justify-content: center;
 	align-items: center;
 	background: #00AFDB;
+	transition: ease .2s;
 }
 
 /*======================*/
@@ -484,4 +485,18 @@ img:hover{
 
 .socials a:hover{
 	mix-blend-mode: overlay;
+}
+
+.sign-up img:hover{
+	cursor:pointer;
+	box-shadow: 0 0 0 0;
+	opacity: 1;
+}
+
+#submit:hover{
+	background-color: #007d9c;
+}
+
+.imageToggle img{
+	box-shadow: 0 0 0 0;
 }
